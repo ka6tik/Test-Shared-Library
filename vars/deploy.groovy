@@ -1,4 +1,4 @@
 def call(){
   echo "Deploying the Artifact!"
-  echo "Demo Variable : ${demoVar}"
+  echo "Demo Deploy successful"
 }
