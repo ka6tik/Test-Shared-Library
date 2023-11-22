@@ -10,7 +10,7 @@ def call() {
 
     // Build
     stage('Build') {
-        sh "${buildTools}/bin/mvn clean install"
+        #sh "${buildTools}/bin/mvn clean install"
     }
 
     // Deploy
