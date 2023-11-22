@@ -1,0 +1,21 @@
+def call(String saywhat = "nothing") {
+    if (saywhat == "hi") {
+        script {
+            sh """
+                echo Hi Kartik
+            """
+        }
+    } else if (saywhat == "hello") {
+        script {
+            sh """
+                echo Hello Kartik
+            """
+        }
+    } else {
+        script {
+            sh """
+                echo Whats up Kartik
+            """
+        }
+    }
+}
